@@ -1,10 +1,10 @@
 /**
- * Created by Arabic on 31/01/22.
+ * Created by Arabic on 21/02/22.
  */
 public interface Queue<E> {
     boolean isEmpty();
-            int size();
-                void enqueue(E element);
-    E dequeue();
+    int size();
+    void enqueue(E el);
     E first();
+    E dequeue();
 }

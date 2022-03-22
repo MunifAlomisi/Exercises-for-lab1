@@ -1,11 +1,10 @@
 /**
- * Created by LAB on 10/13/2010.
+ * Created by Arabic on 21/02/22.
  */
 public interface Stack<E> {
     boolean isEmpty();
-    void push(E element);
     int size();
-    E pop();
     E top();
-
+    void push(E el);
+    E pop();
 }
