@@ -1,16 +1,13 @@
-/* Summary in java(oop)
-      create in 11/1/2022
+/**
+ * Created by Arabic on 13/10/10.
  */
-//EXERCISE NUM:4
-//In this program we make class for student
-
 public class Student {
     int id;
     String name;
 
-    public Student(int id, String name){
-        this.id=id;
-        this.name=name;
+    public Student(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     public int getId() {
@@ -37,3 +34,4 @@ public class Student {
                 '}';
     }
 }
+
